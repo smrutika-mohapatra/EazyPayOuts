@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    
+    /* position: fixed; */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: white;   
+    box-shadow: 0px 10px 7px gray;
+    height: 98.5vh;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.menu>button{
+   text-decoration: none;
+   outline: none; 
+   border: none;
+   padding: 10px 30px;
+   text-align: left;
+   background-color: transparent;
+   box-shadow: 0px 1px 4px gray;
+
+}
+.menu>button:hover{
+    background-color: navy;
+    color: white;
+}
+.menu>button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.menu>button a:hover{
+    color: white;
+}
+.container>.sidebar>.logout{
+    margin-top: 420px;
+}
+.container>.sidebar>.logout>div{
+    margin-left: 20px;
+}
+.container>.sidebar>.logout>div>a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header select {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.header select option {
+    text-align: left;
+}
+
+.balance {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 250px;
+    box-shadow: 0px 2px 4px gray;
+}
+.balance>div{
+    display: flex;
+}
+
+.balance img {
+    margin-right: 10px;
+}
+
+.balance p {
+    margin: 0;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.balance i {
+    font-size: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    /* margin-right: 30px; */
+    width: 50px;
+}
+
+.table th {
+    background-color: #f0f0f0;
+}
+table{
+    border: none;
+}
